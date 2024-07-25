@@ -1,1 +1,4 @@
+org\gycoding\springexceptions\APIException$APIExceptionBuilder.class
+org\gycoding\springexceptions\APIException.class
 org\gycoding\springexceptions\APIError.class
+org\gycoding\springexceptions\SpringExceptionsApplication.class
