@@ -1,9 +1,11 @@
 package org.gycoding.springexceptions.model;
 
 import lombok.Builder;
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 @Builder
+@Getter
 public class APIException extends Exception {
     private final static String OWNER = "GYCODING";
 
@@ -32,5 +34,15 @@ public class APIException extends Exception {
         super(message);
         this.code   = code;
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "{"
+            + "\"code\":\"" + code + "\","
+            + "\"status\":" + status
+            + "\"owner\":\"" + OWNER + "\","
+            + "\"message\":\"" + getMessage() + "\","
+            + "}";
     }
 }
