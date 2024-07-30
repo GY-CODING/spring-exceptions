@@ -40,7 +40,7 @@ public class APIException extends Exception {
     public String toString() {
         return "{"
             + "\"code\":\"" + code + "\","
-            + "\"status\":" + status + "\","
+            + "\"status\":" + status + "\""
             + "\"owner\":\"" + OWNER + "\","
             + "\"message\":\"" + super.getMessage() + "\""
             + "}";
