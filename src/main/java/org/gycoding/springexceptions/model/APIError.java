@@ -1,4 +1,4 @@
-package org.gycoding.springexceptions;
+package org.gycoding.springexceptions.model;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
@@ -11,9 +11,9 @@ public enum APIError {
     BAD_REQUEST("The endpoint is malformed.", HttpStatus.BAD_REQUEST),
     SERVER_ERROR("An internal server error has occurred, sorry for the inconvenience.", HttpStatus.INTERNAL_SERVER_ERROR);
 
-    public final String code;
-    public final String message;
-    public final HttpStatus status;
+    private final String code;
+    private final String message;
+    private final HttpStatus status;
 
     APIError(String message, HttpStatus status) {
         this.code       = this.name();
