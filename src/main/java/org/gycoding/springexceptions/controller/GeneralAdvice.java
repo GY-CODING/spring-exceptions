@@ -16,8 +16,7 @@ import java.util.List;
 @RestControllerAdvice
 public class GeneralAdvice {
     @ExceptionHandler({APIException.class})
-    public ResponseEntity<String> handleServiceExceptions(APIException ex) throws APIException {
-        System.out.println(ex.toString());
+    public ResponseEntity<String> handleServiceExceptions(APIException ex) {
         return new ResponseEntity<>(ex.toString(), HttpStatusCode.valueOf(ex.getStatus()));
     }
 }
