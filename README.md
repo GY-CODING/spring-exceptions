@@ -1,6 +1,6 @@
 # Spring Exceptions
 
-![version](https://img.shields.io/badge/version-1.0.6-gold?style=for-the-badge)
+![version](https://img.shields.io/badge/version-1.1.1-gold?style=for-the-badge)
 [![developer](https://img.shields.io/badge/developed-GYCODING-B833FF?style=for-the-badge)](https://gycoding.com)
 
 <br>
@@ -13,7 +13,9 @@ GYCODING's Spring Exceptions contains all the exception management of every GYCO
 
 ## How it was made
 
-Description of the technologies and procedures used to develop this project.
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+
+This package has been developed using just Spring Boot and Java, and deployed using GitHub Actions and GitHub Packages.
 
 <br>
 
