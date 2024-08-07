@@ -1,4 +1,4 @@
-package org.gycoding.springexceptions.model;
+package org.gycoding.exceptions.model;
 
 import lombok.Builder;
 import lombok.Getter;

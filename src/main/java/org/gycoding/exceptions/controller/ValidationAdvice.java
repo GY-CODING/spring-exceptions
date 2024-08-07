@@ -1,7 +1,7 @@
-package org.gycoding.springexceptions.controller;
+package org.gycoding.exceptions.controller;
 
-import org.gycoding.springexceptions.model.APIError;
-import org.gycoding.springexceptions.model.APIException;
+import org.gycoding.exceptions.model.APIError;
+import org.gycoding.exceptions.model.APIException;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
